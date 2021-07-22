@@ -1,0 +1,10 @@
+# on:
+#   push:
+#     jobs:
+#       my-job:
+#         name: Aws update
+#         runs-on: ubuntu-latest
+#         steps:
+#           - name: run terraform command
+#         run: |
+#           terraform init ; terraform apply
